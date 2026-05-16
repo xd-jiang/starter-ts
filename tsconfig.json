@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "lib": ["esnext", "DOM"],
+    "moduleResolution": "bundler",
+    "esModuleInterop": true,
+    "strict": true,
+    "jsx": "preserve",
+    "paths": {
+      "@/*": ["./src/*"]   
+    },
+    "strictNullChecks": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "experimentalDecorators":true,
+    "types": ["vitest/globals"],
+    "ignoreDeprecations": "6.0" 
+  },
+  "exclude": ["node_modules", "dist"]
+}
